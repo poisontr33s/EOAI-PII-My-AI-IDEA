@@ -4,30 +4,30 @@ Final project for the Building AI course
 
 ## Summary
 
-FrostGuard is a predictive model designed to identify high-risk zones for black ice on municipal roads before they form. By combining micro-topography with local weather data, this Building AI course project aims to optimize snowplow and salting routes to improve winter road safety.
+FrostGuard is a predictive model designed to identify high-risk zones for black ice on municipal roads before they form. By combining micro-topography with local weather data, this Building AI course project aims to optimize snowplow and salting routes to improve winter road safety in complex coastal climates like Asker.
 
 ## Background
 
 Winter road maintenance is often reactive or based on broad regional weather forecasts. However, ice forms based on hyper-local conditions (elevation, proximity to water, shadows from terrain). 
 This creates several problems:
-* **Safety risks:** Drivers encounter unexpected black ice in micro-climates.
+* **Safety risks:** Drivers encounter unexpected black ice in micro-climates where coastal moisture freezes rapidly.
 * **Resource waste:** Municipalities salt entire road networks when only specific zones require it.
-* **Environmental impact:** Over-salting damages local flora and freshwater systems.
+* **Environmental impact:** Over-salting damages local flora and freshwater systems flowing into the fjord.
 
-My motivation is to make local roads safer while helping municipal maintenance crews deploy their limited resources (salt, grit, and plows) more efficiently. 
+The motivation is to make local roads safer while helping municipal maintenance crews deploy their limited resources (salt, grit, and plows) more efficiently. 
 
 ## How is it used?
 
 The solution is designed to be used by municipal road maintenance dispatchers as a dashboard tool. 
 
-Every evening, the system pulls the overnight weather forecast and cross-references it with the municipal road map. It highlights specific road segments in red (high risk of ice) or green (low risk). The dispatcher uses this map to prioritize the morning routes for the salting trucks, ensuring the most dangerous curves and hills are treated first.
+Every evening, the system pulls the overnight weather forecast and cross-references it with the municipal road map. It highlights specific road segments in red (high risk of ice) or green (low risk). The dispatcher uses this map to prioritize the morning routes for the salting trucks, ensuring the most dangerous curves, steep hills, and moisture-heavy coastal roads are treated first.
 
-![Black ice on road](https://upload.wikimedia.org/wikipedia/commons/4/41/Black_ice_on_road.jpg)
+![Icy winter road conditions](https://images.unsplash.com/photo-1542601098-3fac25baac55?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80)
 
 ## Data sources and AI methods
 
 The project relies on two primary data sources:
-1.  **Topographical Data:** Open-source map data (like OpenStreetMap or local government GIS data) detailing road elevation, curve sharpness, and proximity to water bodies (like fjords or lakes).
+1.  **Topographical Data:** Open-source map data (like OpenStreetMap or local government GIS data) detailing road elevation, curve sharpness, and proximity to water bodies.
 2.  **Meteorological Data:** API feeds from the national meteorological institute providing temperature, humidity, and precipitation forecasts.
 
 **AI Method:**
@@ -55,4 +55,4 @@ The next step would be to transition from a purely predictive model to a real-ti
 
 * Inspiration drawn from the Zen Robotics case study on optimizing physical, real-world tasks using data.
 * Elements of AI / Building AI course materials by Reaktor and University of Helsinki.
-* Image: [Black ice on road](https://commons.wikimedia.org/wiki/File:Black_ice_on_road.jpg) by Tennen-Gas / Licensed under [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)
+* Image: Unsplash royalty-free open license.
