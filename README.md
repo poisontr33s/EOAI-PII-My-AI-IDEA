@@ -25,7 +25,7 @@ Every evening, the system pulls the overnight weather forecast and cross-referen
 ---
 
 <img width="1320" height="768" alt="image" src="https://github.com/user-attachments/assets/bbc02e6f-b800-487a-a91b-55b23370d941" />
-<video src="https://github.com/poisontr33s/EOAI-PII-My-AI-IDEA/raw/main/Frostguard_Sample_Pitch.MP4" width="100%" controls></video>
+
 
 
 ---
@@ -64,3 +64,7 @@ Limitations include:
 * Inspiration drawn from the Zen Robotics case study on optimizing physical, real-world tasks using data.
 * Elements of AI / Building AI course materials by Reaktor and University of Helsinki.
 * Image: My Prototype for ***Elements of AI*** — *Module* **2/2** — ***Building your own AI.***
+
+---
+
+<video src="https://github.com/poisontr33s/EOAI-PII-My-AI-IDEA/main/Frostguard_Sample_Pitch.MP4" width="100%" controls></video>
