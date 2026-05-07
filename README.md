@@ -26,10 +26,9 @@ Every evening, the system pulls the overnight weather forecast and cross-referen
 
 <img width="1320" height="768" alt="image" src="https://github.com/user-attachments/assets/bbc02e6f-b800-487a-a91b-55b23370d941" />
 
+---
 
-<video src="Frostguard_Sample_Pitch.MP4" width="100%" controls></video>
-
-
+<video src="https://github.com/poisontr33s/EOAI-PII-My-AI-IDEA/raw/main/Frostguard_Sample_Pitch.MP4" width="100%" controls></video>
 
 
 ---
