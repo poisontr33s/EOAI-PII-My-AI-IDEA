@@ -59,8 +59,3 @@ Limitations include:
 * Elements of AI / Building AI course materials by Reaktor and University of Helsinki.
 * Image: My Prototype for ***Elements of AI*** — *Module* **2/2** — ***Building your own AI.***
 
----
-
-
-
----
