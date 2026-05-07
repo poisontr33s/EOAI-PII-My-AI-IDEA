@@ -67,6 +67,6 @@ Limitations include:
 
 ---
 
-<video src="https://github.com/poisontr33s/EOAI-PII-My-AI-IDEA/raw/main/Frostguard_Sample_Pitch.MP4" width="100%" controls></video>
+
 
 ---
