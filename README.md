@@ -22,7 +22,7 @@ The solution is designed to be used by municipal road maintenance dispatchers as
 
 Every evening, the system pulls the overnight weather forecast and cross-references it with the municipal road map. It highlights specific road segments in red (high risk of ice) or green (low risk). The dispatcher uses this map to prioritize the morning routes for the salting trucks, ensuring the most dangerous curves, steep hills, and moisture-heavy coastal roads are treated first.
 
-![Icy winter road conditions](https://images.unsplash.com/photo-1542601098-3fac25baac55?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80)
+
 
 ## Data sources and AI methods
 
@@ -55,4 +55,4 @@ The next step would be to transition from a purely predictive model to a real-ti
 
 * Inspiration drawn from the Zen Robotics case study on optimizing physical, real-world tasks using data.
 * Elements of AI / Building AI course materials by Reaktor and University of Helsinki.
-* Image: Unsplash royalty-free open license.
+* Image: My Prototype for ***Elements of AI*** — *Module* **2/2** — **Building your own AI.***
