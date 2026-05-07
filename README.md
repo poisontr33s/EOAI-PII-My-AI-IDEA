@@ -55,6 +55,11 @@ Limitations include:
 
 The next step would be to transition from a purely predictive model to a real-time reactive model. This could be achieved by partnering with a local public transit authority to install basic temperature and friction sensors on buses, feeding live, ground-truth data back into the neural network to continuously update the risk map throughout the day.
 
+**Real-Time Data Integration:** The immediate next step is transitioning from a predictive model to a real-time reactive system by partnering with public transit authorities to install temperature/friction sensors on buses, feeding ground-truth data back into the network.
+
+**Global & Climatic Scalability:** Because the algorithm learns thermodynamics rather than memorizing local maps, the architecture is geographically agnostic and can be deployed anywhere in the world. Furthermore, by swapping the training features (e.g., replacing cold/humidity with solar radiation and asphalt age), the exact same AI methodology can be utilized to predict extreme summer hazards like road melting and rutting.
+
+
 ## Acknowledgments
 
 * Inspiration drawn from the Zen Robotics case study on optimizing physical, real-world tasks using data.
