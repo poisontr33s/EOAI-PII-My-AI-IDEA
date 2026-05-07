@@ -26,6 +26,10 @@ Every evening, the system pulls the overnight weather forecast and cross-referen
 
 <img width="1320" height="768" alt="image" src="https://github.com/user-attachments/assets/bbc02e6f-b800-487a-a91b-55b23370d941" />
 
+
+https://github.com/poisontr33s/EOAI-PII-My-AI-IDEA/blob/main/frostguard_atmosphere.mp4
+
+
 ---
 
 ## Data sources and AI methods
