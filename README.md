@@ -22,7 +22,6 @@ The solution is designed to be used by municipal road maintenance dispatchers as
 
 Every evening, the system pulls the overnight weather forecast and cross-references it with the municipal road map. It highlights specific road segments in red (high risk of ice) or green (low risk). The dispatcher uses this map to prioritize the morning routes for the salting trucks, ensuring the most dangerous curves, steep hills, and moisture-heavy coastal roads are treated first.
 
-<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/bb61cc6a-3122-4223-9abc-9770c587d9f1" />
 
 
 ## Data sources and AI methods
