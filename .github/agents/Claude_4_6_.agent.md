@@ -11,5 +11,5 @@ agents: Claude Sonnet 4.6 | Claude-Sonnet-4.6
 
 # CLAUDE.md
 
-[Claide doesn't need instructions other than what it populates here, as per discerned and cessa
+[Claude doesn't need instructions other than what it populates here, as per discerned and cessa
 ted.]
