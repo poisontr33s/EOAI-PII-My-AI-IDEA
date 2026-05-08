@@ -1,3 +1,18 @@
+"""Legacy proof-of-concept — preserved for reference.
+
+This file has been superseded by the modular architecture:
+
+    run_frostguard.py               entry point (swap one import to change region)
+    frostguard/config.py            RegionConfig + RoadSegment schema
+    frostguard/data.py              training data loader + FEATURE_NAMES contract
+    frostguard/model.py             train() + evaluate() (recall-first)
+    frostguard/predict.py           predict_segments() + print_predictions()
+    regions/asker_norway.py         Asker municipality reference config
+    regions/akershus_norway.py      Broader Akershus county config
+    regions/scotland_example.py     Portability example: Scottish Highlands
+
+Copyright (c) 2026 poisontr33s. See LICENSE for terms.
+"""
 import numpy as np
 from sklearn.linear_model import LogisticRegression
 
