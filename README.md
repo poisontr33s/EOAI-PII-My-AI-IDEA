@@ -2,12 +2,6 @@
 
 Final project for the Building AI course
 
-## Pitch Video
-
-<video src="Frostguard_Sample_Pitch.MP4" controls title="FrostGuard Sample Pitch">Your browser does not support the video tag. Please download the pitch video to view it.</video>
-
-If the video does not preview directly on GitHub, download or open the file here: [FrostGuard Sample Pitch](Frostguard_Sample_Pitch.MP4)
-
 ## Summary
 
 FrostGuard is a predictive model designed to identify high-risk zones for black ice on municipal roads before they form. By combining micro-topography with local weather data, this Building AI course project aims to optimize snowplow and salting routes to improve winter road safety in complex coastal climates like Asker.
