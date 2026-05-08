@@ -99,17 +99,8 @@ The model could be tested by comparing predicted high-risk road segments with:
 
 The success metric should not only be accuracy. Because missed ice is the dangerous failure mode, recall and false-negative rate should be tracked explicitly.
 
-## Extended documentation
-
-- [AI idea shrine](docs/AI_IDEA_SHRINE.md)
-- [Evaluation and risk](docs/EVALUATION_AND_RISK.md)
-- [Data contract](docs/DATA_CONTRACT.md)
-- [Model card](docs/MODEL_CARD.md)
-- [Media and ambience](docs/MEDIA_AND_AMBIENCE.md)
-
 ## Acknowledgments
 
 * Inspiration drawn from the Zen Robotics case study on optimizing physical, real-world tasks using data.
 * Elements of AI / Building AI course materials by Reaktor and University of Helsinki.
-* Image: My Prototype for ***Elements of AI*** — *Module* **2/2** — ***Building your own AI.***
-
+* Visual and pitch media: Prototype material for ***Elements of AI*** — *Module* **2/2** — ***Building Your Own AI.***
