@@ -28,8 +28,6 @@ Every evening, the system pulls the overnight weather forecast and cross-referen
 
 [<img width="1320" height="768" alt="Watch the FrostGuard sample pitch video" src="https://github.com/user-attachments/assets/f24f51a9-44c0-4ab2-9e1d-578f91c5ad75)
 
-Click the image to watch the FrostGuard sample pitch video.
-
 ## Data sources and AI methods
 
 The project relies on two primary data sources:
