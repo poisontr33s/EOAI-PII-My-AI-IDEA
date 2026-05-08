@@ -1,3 +1,19 @@
+"""Legacy proof-of-concept script — preserved for reference.
+
+This file has been superseded by the modular architecture:
+
+    run_frostguard.py            entry point
+    frostguard/data.py           training data loader + feature schema
+    frostguard/model.py          model training + evaluation
+    frostguard/predict.py        prediction runner
+    frostguard/config.py         RegionConfig / RoadSegment schema
+    regions/asker_norway.py      Asker reference config
+    regions/scotland_example.py  example second-region config
+
+Run:  python run_frostguard.py
+"""
+# --- original POC code below (unchanged) ---
+
 import numpy as np
 from sklearn.linear_model import LogisticRegression
 
@@ -37,7 +53,7 @@ print(f"Inland Road (Dikemark): {prob_dikemark * 100:.1f}% risk of black ice.")
 
 # ==========================================
 # 4. SWAPPABILITY TEST: GLOBAL DEPLOYMENT
-# The model relies on thermodynamics, not geography. 
+# The model relies on thermodynamics, not geography.
 # ==========================================
 print("\n--- FrostGuard: Global Transferability ---")
 road_scotland = np.array([[10, -0.5, 98, 50]])
@@ -50,7 +66,7 @@ print(f"Alpine Pass (High/Dry): {prob_alps * 100:.1f}% risk of black ice.")
 
 # ==========================================
 # 5. EXTENSION: CLIMATE ADAPTABILITY (HEAT)
-# By swapping the training data to focus on surface temp, solar radiation, 
+# By swapping the training data to focus on surface temp, solar radiation,
 # and asphalt age, the exact same AI methodology predicts road melting (rutting).
 # ==========================================
 print("\n--- Architecture Extension: Extreme Heat ---")
