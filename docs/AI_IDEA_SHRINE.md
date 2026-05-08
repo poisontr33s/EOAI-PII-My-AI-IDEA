@@ -25,5 +25,5 @@ FrostGuard is a portable, human-supervised, false-negative-sensitive AI risk cla
 
 ### Author's Note 📝 
 
-1. This example weighs presentation from Akershus's Municipality.
+1. This example weighs presentation from Akershus Municipality.
 2. Agnosticism in common crept and idea is modular to function for any area with the same prerequisites to apply them accurately but avoiding hallucinatory applications. this is not backed by research.
