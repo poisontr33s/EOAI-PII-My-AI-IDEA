@@ -24,9 +24,7 @@ Every evening, the system pulls the overnight weather forecast and cross-referen
 
 <img width="1320" height="768" alt="image" src="https://github.com/user-attachments/assets/bbc02e6f-b800-487a-a91b-55b23370d941" />
 
-## Pitch Video
-
-[<img width="1320" height="768" alt="Watch the FrostGuard sample pitch video" src="https://github.com/user-attachments/assets/f24f51a9-44c0-4ab2-9e1d-578f91c5ad75)
+### ▶️ [Watch FrostGuard Sample Pitch](https://github.com/user-attachments/assets/f24f51a9-44c0-4ab2-9e1d-578f91c5ad75)
 
 ## Data sources and AI methods
 
