@@ -21,9 +21,9 @@ FrostGuard should learn road-surface risk conditions, not local place names. Ask
 
 ## Canonical project sentence
 
-FrostGuard is a portable, human-supervised, false-negative-sensitive AI risk classifier for invisible winter road hazards, with agnostic modularization for swapping based on environmental para— / hyper-parametrices.
+FrostGuard is a portable, human-supervised, false-negative-sensitive AI risk classifier for invisible winter road hazards, with agnostic modularization for swapping based on environmental para— / hyper-parametrices in localized areas, emphasizing black ice as weighted surface idea.
 
 ### Author's Note 📝 
 
-1. This example is weighs presentation from Akershus's Municipality.
-2. Agnosticism is modular function for any area with the same prerequisites to apply them accurately for avoiding hallucinatory applications.
+1. This example weighs presentation from Akershus's Municipality.
+2. Agnosticism in common crept and idea is modular to function for any area with the same prerequisites to apply them accurately but avoiding hallucinatory applications. this is not backed by research.
