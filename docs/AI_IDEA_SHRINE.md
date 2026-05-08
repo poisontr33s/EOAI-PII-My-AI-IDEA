@@ -1,4 +1,4 @@
-# FrostGuard — AI idea shrine
+# FrostGuard - Elements of AI: Idea
 
 FrostGuard is a localized black ice prediction concept for municipal winter road maintenance.
 
