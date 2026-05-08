@@ -6,6 +6,8 @@ Final project for the Building AI course
 
 <video src="Frostguard_Sample_Pitch.MP4" controls title="FrostGuard Sample Pitch">Your browser does not support the video tag. Please download the pitch video to view it.</video>
 
+If the video does not preview directly on GitHub, download or open the file here: [FrostGuard Sample Pitch](Frostguard_Sample_Pitch.MP4)
+
 ## Summary
 
 FrostGuard is a predictive model designed to identify high-risk zones for black ice on municipal roads before they form. By combining micro-topography with local weather data, this Building AI course project aims to optimize snowplow and salting routes to improve winter road safety in complex coastal climates like Asker.
@@ -44,6 +46,23 @@ This is a binary classification problem (Ice vs. No Ice). A **Logistic Regressio
 | `humidity` | Relative humidity percentage |
 | `water_proximity`| Distance to nearest open water (meters) |
 
+## Project architecture note
+
+FrostGuard is intentionally designed as a geographically agnostic classification system.
+
+The first use case is coastal Asker, Norway, where black ice can form under highly local conditions near fjords, hills, shaded terrain, and moisture-heavy road segments.
+
+The model does not attempt to memorize Asker as a map. Instead, it classifies road-surface risk from transferable environmental features:
+
+| Feature | Role |
+| --- | --- |
+| `elevation` | Captures altitude-related freezing conditions |
+| `temp_forecast` | Estimates overnight freezing risk |
+| `humidity` | Captures available moisture for ice formation |
+| `water_proximity` | Captures coastal/fjord moisture exposure |
+
+This makes the architecture portable: the same classification pattern can be retrained for other regions, climates, and road hazards when the input features are replaced or extended.
+
 ## Challenges
 
 The project does not solve the physical clearing of the roads; it only provides a prediction. 
@@ -51,11 +70,42 @@ Limitations include:
 * **Data availability:** Historical logs of exactly where and when black ice formed in the past might be scarce, making initial training difficult.
 * **Micro-climates:** Wind patterns and shadows from newly built structures might alter ice formation in ways the topographical data cannot capture.
 
+### Risk asymmetry
+
+False negatives are more dangerous than false positives.
+
+A false positive may cause unnecessary salting or route prioritization.  
+A false negative may leave a dangerous road untreated and increase accident risk.
+
+For that reason, the first evaluation target should prioritize recall: the system should prefer warning too often over missing hazardous ice formation.
+
 ## What next?
 
 **Real-Time Data Integration:** The immediate next step is transitioning from a purely predictive model to a real-time reactive system. This could be achieved by partnering with local public transit authorities to install basic temperature and friction sensors on buses, feeding live, ground-truth data back into the neural network to continuously update the risk map throughout the day.
 
 **Global & Climatic Scalability:** Because the algorithm learns thermodynamics rather than memorizing local maps, the architecture is geographically agnostic and can be deployed anywhere in the world. Furthermore, by swapping the training features (e.g., replacing cold/humidity with solar radiation and asphalt age), the exact same AI methodology can be utilized to predict extreme summer hazards like road melting and rutting.
+
+### Validation plan
+
+A future version should be validated against a full winter season rather than isolated examples.
+
+The model could be tested by comparing predicted high-risk road segments with:
+
+- municipal salting logs
+- public road incident reports
+- bus-mounted temperature or friction sensors
+- meteorological observations
+- driver reports of black ice
+
+The success metric should not only be accuracy. Because missed ice is the dangerous failure mode, recall and false-negative rate should be tracked explicitly.
+
+## Extended documentation
+
+- [AI idea shrine](docs/AI_IDEA_SHRINE.md)
+- [Evaluation and risk](docs/EVALUATION_AND_RISK.md)
+- [Data contract](docs/DATA_CONTRACT.md)
+- [Model card](docs/MODEL_CARD.md)
+- [Media and ambience](docs/MEDIA_AND_AMBIENCE.md)
 
 ## Acknowledgments
 
