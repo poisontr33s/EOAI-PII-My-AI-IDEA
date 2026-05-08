@@ -24,19 +24,11 @@ Every evening, the system pulls the overnight weather forecast and cross-referen
 
 <img width="1320" height="768" alt="image" src="https://github.com/user-attachments/assets/bbc02e6f-b800-487a-a91b-55b23370d941" />
 
-<head>
-  <meta charset="utf-8">
-  <title>FrostGuard Pitch Video</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
-<body>
-<h1>FrostGuard Pitch Video</h1>
-<video controls width="100%">
-<source src="https://github.com/user-attachments/assets/f24f51a9-44c0-4ab2-9e1d-578f91c5ad75" type="video/quicktime">
-    Your browser does not support the video tag.
-  </video>
-</body>
-</html>
+## Pitch Video
+
+### ▶️ [Watch FrostGuard Sample Pitch](https://github.com/user-attachments/assets/f24f51a9-44c0-4ab2-9e1d-578f91c5ad75)
+
+*This short atmospheric pitch video presents the project concept with its generated visual and audio layer.*
 
 ## Data sources and AI methods
 
